@@ -350,8 +350,8 @@
             return '倒计时多了' + ((deviation_time / 1000) - 20).toFixed(2) + "s";
         }
         SubmitResults();
-        if (score <= 49) return '试着好好练一下？';
-        if (score <= 99) return '这一定是接触不良！';
+        if (score <= 29) return '这一定是接触不良！？';
+        if (score <= 99) return '太好听了8！';
         if (score <= 149) return '我们一起做学园偶像吧！';
         if (score <= 199) return '您';
         return '人？';
