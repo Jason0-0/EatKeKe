@@ -352,9 +352,9 @@
         SubmitResults();
         if (score <= 29) return '这一定是接触不良！？';
         if (score <= 99) return '太好听了8！';
-        if (score <= 149) return '我们一起做学园偶像吧！';
-        if (score <= 199) return '您';
-        return '人？';
+        if (score <= 149) return '简直就是天籁！';
+        if (score <= 199) return '我们以后一起唱好不好？';
+        return '一起唱，一起做学园偶像~~！';
     }
 
     w.toStr = function(obj) {
